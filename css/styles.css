@@ -395,8 +395,8 @@ ul {
 .checkbox-label::before {
   position: absolute;
   content: "";
-  top: 0;
-  left: -25px;
+  top: 5px;
+  left: 10px;
   width: 16px;
   height: 15px;
   background-image: url(../images/Vector.svg);
@@ -404,8 +404,8 @@ ul {
 .checkbox-label::after {
   position: absolute;
   content: "";
-  top: 0;
-  left: -25px;
+  top: 5px;
+  left: 10px;
   width: 16px;
   height: 15px;
   background-image: url(../images/icon-check.svg);
