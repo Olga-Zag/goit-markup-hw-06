@@ -232,8 +232,8 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  /* align-items: center; */
-  /* text-align: center; */
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-back-color);
   cursor: pointer;
@@ -274,7 +274,7 @@ ul {
 
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 
   background-color: var(--main-back-color);
   top: 8px;
@@ -293,6 +293,7 @@ ul {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-input-title {
+  padding: 40px 40px 0 40px;
   margin-bottom: 12px;
 
   font-size: 20px;
@@ -301,16 +302,17 @@ ul {
 
 .form-label {
   display: block;
-  text-align: left;
+  /* text-align: left; */
+  /* padding-left: 40px; */
 
   font-size: 12px;
   font-style: regular;
   line-height: calc(14 / 12);
-
+  line-height: 1.125;
   color: var(--alt-color);
   letter-spacing: 0.01em;
 
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
 }
 .form-label:not(:first-child) {
   margin-top: 10px;
@@ -320,9 +322,11 @@ ul {
 }
 .form-control {
   position: relative;
+  /* display: flex; */
   margin-bottom: 10px;
 }
 .form-input {
+  /* position: absolute; */
   display: block;
   left: 0;
   padding: 10px 11px 10px 42px;
@@ -331,8 +335,6 @@ ul {
   border-radius: 4px;
   outline: none;
   width: 448px;
-
-  line-height: 1.125;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus {
@@ -351,17 +353,17 @@ ul {
 }
 .textarea {
   /* display: block; */
-  margin-bottom: 10px;
-  width: 448px;
-  height: 120px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 96px;
   padding: 12px 16px 12px 16px;
   border: 1px solid;
-  border-color: rgba(33, 33, 33, 0.2);
+  border-color: (33, 33, 33, 0.2);
   border-radius: 4px;
 
   font-size: 12px;
   font-style: regular;
-  line-height: 1.125;
+  line-height: calc(14 / 12);
   color: v rgba(117, 117, 117, 0.5);
   letter-spacing: 0.01em;
 
@@ -375,14 +377,16 @@ ul {
 }
 .checkbox-input {
   /* appearance: none; */
-  position: relative;
+
   display: block;
-  /* margin-bottom: 30px; */
+  align-self: start;
+  margin-left: 52px;
+  margin-top: 20px;
 }
 .checkbox-label {
   position: relative;
-  display: block;
-  margin-bottom: 30px;
+  padding-left: 28px;
+  margin-top: 20px;
 
   font-weight: 400;
   font-size: 14px;
@@ -394,8 +398,8 @@ ul {
 .checkbox-label::before {
   position: absolute;
   content: "";
-  top: 0;
-  left: -25px;
+  top: 5px;
+  left: 52px;
   width: 16px;
   height: 15px;
   background-image: url(../images/Vector.svg);
@@ -403,8 +407,8 @@ ul {
 .checkbox-label::after {
   position: absolute;
   content: "";
-  top: 0;
-  left: -25px;
+  top: 5px;
+  left: 52px;
   width: 16px;
   height: 15px;
   background-image: url(../images/icon-check.svg);
@@ -420,9 +424,9 @@ ul {
 }
 .button-agree {
   display: block;
+  /* padding: 10px 52px; */
+  margin-left: 173px;
   margin-top: 30px;
-  margin-left: 124px;
-
   width: 200px;
   height: 50px;
   border-color: var(--focus-color);
@@ -432,8 +436,8 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  /* align-items: center; */
-  /* text-align: center; */
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-back-color);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
