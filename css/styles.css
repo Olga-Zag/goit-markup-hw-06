@@ -274,7 +274,6 @@ ul {
 
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 
   background-color: var(--main-back-color);
   top: 8px;
@@ -284,7 +283,6 @@ ul {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .close-cross :hover,
@@ -314,7 +312,7 @@ ul {
   margin-bottom: 4px;
 }
 .form-label:not(:first-child) {
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 .form-label:last-child {
   margin-top: 0px;
@@ -351,8 +349,8 @@ ul {
   fill: var(--focus-color);
 }
 .textarea {
-  /* display: block; */
-  margin-bottom: 10px;
+  display: block;
+  margin-bottom: 20px;
   width: 448px;
   height: 120px;
   padding: 12px 16px 12px 16px;
@@ -378,7 +376,6 @@ ul {
   /* appearance: none; */
   position: relative;
   display: block;
-  /* margin-bottom: 30px; */
 }
 .checkbox-label {
   position: relative;
@@ -390,7 +387,6 @@ ul {
   font-style: normal;
   line-height: calc(24 / 14);
   color: var(--alt-color);
-  margin-bottom: 4px;
 }
 .checkbox-label::before {
   position: absolute;
@@ -413,7 +409,6 @@ ul {
   background-color: var(--focus-color);
 }
 .checkbox-input:checked + .checkbox-label::after {
-  /* color: tomato; */
   opacity: 1;
 }
 .terms-ref {
@@ -421,8 +416,8 @@ ul {
 }
 .button-agree {
   display: block;
-  margin-top: 30px;
-  margin-left: 124px;
+  /* margin-left: 124px; */
+  margin: 0 auto;
 
   width: 200px;
   height: 50px;
@@ -433,7 +428,6 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  /* align-items: center; */
   /* text-align: center; */
   letter-spacing: 0.06em;
   color: var(--main-back-color);
